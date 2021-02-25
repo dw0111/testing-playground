@@ -18,5 +18,8 @@ describe('lib/string.js', () => {
       const result = commaSeparatedToArray('John, Jane,Joe')
       expect(result).toStrictEqual(['John', 'Jane', 'Joe'])
     })
+    it.todo('returns the array in ascending alphabetical order')
+    it.todo('contains only a single instance of each string')
+    it.todo('returns all entries capitalized')
   })
 })
