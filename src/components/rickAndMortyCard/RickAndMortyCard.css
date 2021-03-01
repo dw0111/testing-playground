@@ -1,0 +1,26 @@
+.Card {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  background: #a6eee699;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #0005;
+  width: 100%;
+  transition: 500ms;
+}
+
+.Card h2 {
+  display: inline;
+}
+
+.Card__button {
+  background: #917c5eff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  color: #eee;
+}
+
+.Card mark {
+  background: #e762d799;
+}
